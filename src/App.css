@@ -1,0 +1,26 @@
+.white {
+  color: whitesmoke;
+}
+
+.fancy {
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 2px;
+}
+
+p.scripture {
+  font-family: 'Courgette', cursive;
+}
+
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #57707d;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+img.rcorners {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
