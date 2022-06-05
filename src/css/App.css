@@ -7,6 +7,10 @@
   letter-spacing: 2px;
 }
 
+Link, a {
+  text-decoration: none;
+}
+
 p.scripture {
   font-family: 'Courgette', cursive;
 }

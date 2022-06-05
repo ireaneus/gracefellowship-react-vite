@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { Card, Box, CardContent, CardMedia, Avatar, CardHeader } from '@mui/material';
-import imageUrl from '../images/Church300.jpg'
+import imageUrl from '../images/Church300.jpg';
 
 export default function GraceResCard() {
+
   return (
     <Box flex={5} p={2}>
     <Card >
@@ -37,4 +38,4 @@ export default function GraceResCard() {
     </Card>
     </Box>
   );
-}
+};

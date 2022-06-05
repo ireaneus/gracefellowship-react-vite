@@ -1,44 +1,51 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import * as React from 'react';
+import { Link, Outlet } from 'react-router-dom';
 import { Divider, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch } from '@mui/material';
 import { Home, InfoOutlined, LibraryBooks, ModeNight } from '@mui/icons-material';
 
-export default function ListBox({ mode,setMode }) {
+export default function MenuList({ mode,setMode }) {
 
   return (
         <List>
         <ListItem disablePadding>
-      <ListItemButton><Link to={'/'} /> {" "}
+      <ListItemButton>
         <ListItemIcon>
         <Home />
         </ListItemIcon>
-        <ListItemText primary='Homepage' />
+        <Link to={'/'}> {" "}
+        <ListItemText primary='Home Page' />
+        </Link>
       </ListItemButton>
     </ListItem>
     <ListItem disablePadding>
-      <ListItemButton><Link to={'/sermons'} />
+      <ListItemButton>
         <ListItemIcon>
         <LibraryBooks />
         </ListItemIcon>
-        <ListItemText primary='Sermons' />
+        <Link to={'/sermons'}>
+        <ListItemText primary='Sermons Page' />
+        </Link>
       </ListItemButton>
     </ListItem>
-    <ListItem disablePadding sx={{ display:{xs:'block', sm:'block', md:'none'}}}>
-      <ListItemButton><Link to={'/numbers'} />
+    <ListItem disablePadding>
+      <ListItemButton>
         <ListItemIcon>
         <InfoOutlined />
         </ListItemIcon>
+        <Link to={'/numbers'}>
         <ListItemText primary='Numbers of the Bible' />
+        </Link>
       </ListItemButton>
     </ListItem>
-    <Divider />
     <ListItem disablePadding>
       <ListItemIcon>
        <ModeNight />
       </ListItemIcon>
         <Switch onChange={e=>setMode(mode === 'light' ? 'dark' : 'light' )}/>
     </ListItem>
+    <Divider />
+    <Outlet />
    </List>
-  )
-}
+  );
+};
 

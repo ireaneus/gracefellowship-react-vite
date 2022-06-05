@@ -1,6 +1,6 @@
-import { Avatar, Box, Card, CardContent, CardHeader, CardMedia } from '@mui/material'
-import React from 'react'
-import imageUrl from '../images/Pastor_2.jpg'
+import { Avatar, Box, Card, CardContent, CardHeader, CardMedia } from '@mui/material';
+import React from 'react';
+import imageUrl from '../images/Pastor_2.jpg';
 
 export default function PastorJack() {
 
@@ -15,7 +15,7 @@ export default function PastorJack() {
   }
   title='Pastor Jack Hurly'
   subheader='December 1993 - February 2004'
-/>
+  />
       <Box sx={{display: 'flex', justifyContent: 'center'}}>
       <CardMedia
           sx={{borderRadius: 1, ml: 2, maxWidth: 179}}
@@ -39,5 +39,5 @@ export default function PastorJack() {
      </CardContent>
   </Card>
   </Box>
-  )
+  );
 };

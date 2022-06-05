@@ -1,8 +1,9 @@
-import { Avatar, Box, Card, CardContent, CardHeader, CardMedia } from '@mui/material'
-import React from 'react'
+import { Avatar, Box, Card, CardContent, CardHeader, CardMedia } from '@mui/material';
+import * as React from 'react';
 import imageUrl from '../images/churchus.jpg';
 
 export default function About() {
+  
   return (
     <Box flex={5} p={2}>
       <Card>
@@ -15,14 +16,16 @@ export default function About() {
     title='Grace Fellowship Church'
     subheader='December 1993 - September 2008'
   />
-    
+      <Box sx={{display: 'flex', justifyContent: 'center'}}>
         <CardMedia
           component='img'
+          sx={{borderRadius: 1, ml: 2, maxWidth: 468}}
           height={211}
           image={imageUrl}
           title='Our small church'
           alt='Grace Fellowship of Mountain Home Idaho - Resurrected'
         />
+        </Box>
 
         <CardContent>
         <h4>About our Church</h4>
@@ -35,5 +38,5 @@ export default function About() {
         </CardContent>
     </Card>
     </Box>
-  )
+  );
 };

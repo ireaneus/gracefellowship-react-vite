@@ -1,9 +1,9 @@
 import { Box, Menu, Paper } from '@mui/material';
 import { Church } from '@mui/icons-material';
 import React, { useState } from 'react'
-import ListBox from './List'
+import MenuList from './MenuList';
 
-export default function BasicMenu({ mode,setMode }) {
+export default function ChurchMenu({ mode,setMode }) {
 
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
@@ -36,7 +36,7 @@ export default function BasicMenu({ mode,setMode }) {
             }}
           >
     <Paper sx={{ width: 320, maxWidth: '100%' }}>
-        <ListBox setMode={setMode} mode={mode}/>
+        <MenuList setMode={setMode} mode={mode}/>
     </Paper>
     </Menu>
 </Box>

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { AppBar, Box, Toolbar, } from '@mui/material/';
-import BasicMenu from './Menu';
+import ChurchMenu from './ChurchMenu';
 
-export default function GraceBar({ mode, setMode}) {
+export default function GraceBar({ mode, setMode }) {
 
 const DATEOPTIONS= {
   weekday: 'short',
@@ -16,7 +16,7 @@ const DisplayDate = new Date().toLocaleDateString('en-US', DATEOPTIONS);
   return (
       <AppBar position='sticky'>
         <Toolbar variant='dense'>
-          <BasicMenu setMode={setMode} mode={mode}/>
+          <ChurchMenu setMode={setMode} mode={mode}/>
           <h6 className='w3-wide w3-auto white' >Grace Fellowship of Mountain Home Idaho</h6>
           <Box className='fancy' sx={{display:{xs: 'none', sm: 'block', md: 'block'} }} >{ DisplayDate }</Box>
         </Toolbar>
