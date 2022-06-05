@@ -2,6 +2,7 @@ import { Box, Menu, Paper } from '@mui/material';
 import { Church } from '@mui/icons-material';
 import React, { useState } from 'react'
 import MenuList from './MenuList';
+import { Books } from '../Pages';
 
 export default function ChurchMenu({ mode,setMode }) {
 
@@ -37,6 +38,7 @@ export default function ChurchMenu({ mode,setMode }) {
           >
     <Paper sx={{ width: 320, maxWidth: '100%' }}>
         <MenuList setMode={setMode} mode={mode}/>
+        <Books />
     </Paper>
     </Menu>
 </Box>
