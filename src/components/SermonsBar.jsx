@@ -14,7 +14,7 @@ export default function SermonsBar({ mode,setMode }) {
     <ListItemIcon>
     <Home />
     </ListItemIcon>
-    <Link to={'/'}> {" "}
+    <Link to={'/'}> 
     <ListItemText primary='Home Page' />
     </Link>
   </ListItemButton>
@@ -24,7 +24,7 @@ export default function SermonsBar({ mode,setMode }) {
     <ListItemIcon>
     <LibraryBooks />
     </ListItemIcon>
-    <Link to={'/sermons/books'}>
+    <Link to={'/sermons/books'}> {" "}
     <ListItemText primary='Sermon Collections' />
     </Link>
   </ListItemButton>
