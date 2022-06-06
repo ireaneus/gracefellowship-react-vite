@@ -1,17 +1,23 @@
+import React from 'react'
+import imageUrl from '../images/logo.gif';
+import MenuList from '../components/MenuList';
+import { Avatar, Box, ListItemText } from "@mui/material";
 import { NavLink, Outlet, useSearchParams } from "react-router-dom";
+import { List, ListItem, ListItemButton, ListItemIcon, } from '@mui/material';
 import { getBooks } from "../sermons.js";
+import MenuBookTwoToneIcon from '@mui/icons-material/MenuBookTwoTone';
 
-export default function Books() {
+export default function Books({ mode, setMode }) {
   let books = getBooks();
   let [searchParams, setSearchParams] = useSearchParams();
 
   return (
-    <div style={{ display: "flex" }}>
-      <nav
-        style={{
-          padding: "1rem",
-        }}
-      >
+    <>
+    <Box flex={1} p={2}>
+    <Box sx={{width: 190}} >
+    <Avatar alt='logo' src={imageUrl} sx={{ width: 190, height: 55}} variant='square' />
+    <MenuList setMode={setMode} mode={mode} />
+
     <input
         value={searchParams.get("filter") || ""}
         onChange={(event) => {
@@ -31,22 +37,32 @@ export default function Books() {
         return name.startsWith(filter.toLowerCase());
           })
         .map((book) => (
+          <List key={book.id}>
+          <ListItem disablePadding>
+          <ListItemButton>
+          <ListItemIcon>
+            <MenuBookTwoToneIcon />
+          </ListItemIcon>
           <NavLink
             style={({ isActive }) => {
               return {
                 display: "block",
-                margin: "1rem 0",
                 color: isActive ? "red" : "",
               };
             }}
-            to={`/sermons/books/${book.id}`}
-            key={book.id}
+            to={`/books/${book.id}`}
           >
-            {book.name}
-          </NavLink>
+            <ListItemText primary={book.name} />
+          </NavLink> {" "}
+          </ListItemButton>
+          </ListItem>
+          </List>
         ))}
-      </nav>
+
+        </Box>
+
+      </Box>
       <Outlet />
-    </div>
+      </>
   );
-}
+};

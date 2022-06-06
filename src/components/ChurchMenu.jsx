@@ -2,6 +2,8 @@ import { Box, Menu, Paper } from '@mui/material';
 import { Church } from '@mui/icons-material';
 import React, { useState } from 'react'
 import MenuList from './MenuList';
+import { Books } from '../Pages';
+
 
 export default function ChurchMenu({ mode,setMode }) {
 
@@ -35,7 +37,7 @@ export default function ChurchMenu({ mode,setMode }) {
               'aria-labelledby': 'basic-button',
             }}
           >
-    <Paper sx={{ width: 320, maxWidth: '100%' }}>
+    <Paper sx={{ width: 240, maxWidth: '100%' }}>
         <MenuList setMode={setMode} mode={mode}/>
     </Paper>
     </Menu>

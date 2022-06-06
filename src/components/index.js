@@ -6,4 +6,3 @@ export { default as MenuList } from './MenuList';
 export { default as ChurchMenu } from './ChurchMenu';
 export { default as PastorJack } from './PastorJack';
 export { default as Sidebar } from './Sidebar';
-export { default as SermonsBar } from './SermonsBar';

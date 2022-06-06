@@ -1,1 +1,1 @@
-# gracefellowship-react-vite 
+# gracefellowship-react-vite
