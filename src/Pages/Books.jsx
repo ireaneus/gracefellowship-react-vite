@@ -1,4 +1,7 @@
-import { Box, ListItemText } from "@mui/material";
+import React from 'react'
+import imageUrl from '../images/logo.gif';
+import MenuList from '../components/MenuList';
+import { Avatar, Box, ListItemText } from "@mui/material";
 import { NavLink, Outlet, useSearchParams } from "react-router-dom";
 import { List, ListItem, ListItemButton, ListItemIcon, } from '@mui/material';
 import { getBooks } from "../sermons.js";
@@ -9,7 +12,11 @@ export default function Books({ mode, setMode }) {
   let [searchParams, setSearchParams] = useSearchParams();
 
   return (
-    <Box>
+    <>
+    <Box flex={1} p={2}>
+    <Box sx={{width: 240}} >
+    <Avatar alt='logo' src={imageUrl} sx={{ width: 190, height: 55}} variant='square' />
+    <MenuList setMode={setMode} mode={mode} />
 
     <input
         value={searchParams.get("filter") || ""}
@@ -52,7 +59,10 @@ export default function Books({ mode, setMode }) {
           </List>
         ))}
 
-      <Outlet />
+        </Box>
+
       </Box>
+      <Outlet />
+      </>
   );
-}
+};

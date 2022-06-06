@@ -1,7 +1,6 @@
 import { Avatar, Box } from '@mui/material';
 import React from 'react'
 import imageUrl from '../images/logo.gif';
-import { Books } from '../Pages';
 import MenuList from './MenuList';
 
 export default function Sidebar({ mode,setMode }) {
@@ -12,7 +11,6 @@ export default function Sidebar({ mode,setMode }) {
         <Box sx={{ width: 240 }}>
           <Avatar alt='logo' src={imageUrl} sx={{ width: 190, height: 55}} variant='square' />
           <MenuList setMode={setMode} mode={mode} />
-          <Books setMode={setMode} mode={mode}/>
         </Box>
     </Box>
   );

@@ -1,6 +1,9 @@
 import { useState } from 'react'
-import { Box, createTheme, ThemeProvider } from '@mui/material'
-import { GraceBar, SermonsBar} from '../components';
+import { Box, createTheme, Stack, ThemeProvider } from '@mui/material'
+import { GraceBar, Footer } from '../components';
+import Books from './Books';
+
+
 
 export default function SermonsPage() {
   const [mode,setMode] = useState('light');
@@ -18,7 +21,10 @@ export default function SermonsPage() {
     <ThemeProvider theme={myTheme}>
       <Box sx={{ bgcolor: 'background.default', color: 'text.primary' }}>
         <GraceBar setMode={setMode} mode={mode}/>
-        <SermonsBar setMode={setMode} mode={mode} />
+        <Stack direction='row' spacing={2} justifyContent='space-between'>
+        <Books setMode={setMode} mode={mode} />
+      </Stack>
+        <Footer />
       </Box>
     </ThemeProvider>
   );

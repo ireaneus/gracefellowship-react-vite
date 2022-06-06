@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Divider, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch } from '@mui/material';
-import { Home, InfoOutlined, ModeNight } from '@mui/icons-material';
+import { Home, ModeNight } from '@mui/icons-material';
+import MenuBookTwoToneIcon from '@mui/icons-material/MenuBookTwoTone';
 
 export default function MenuList({ mode,setMode }) {
 
@@ -12,7 +13,7 @@ export default function MenuList({ mode,setMode }) {
         <ListItemIcon>
         <Home />
         </ListItemIcon>
-        <Link to={'/'}> {" "}
+        <Link to={'/'}> 
         <ListItemText primary='Home Page' />
         </Link>
       </ListItemButton>
@@ -20,10 +21,10 @@ export default function MenuList({ mode,setMode }) {
     <ListItem disablePadding>
       <ListItemButton>
         <ListItemIcon>
-        <InfoOutlined />
+        <MenuBookTwoToneIcon />
         </ListItemIcon>
-        <Link to={'/numbers'}>
-        <ListItemText primary='Numbers of the Bible' />
+        <Link to={'/books'}> {" "}
+        <ListItemText primary='Sermon Collections' />
         </Link>
       </ListItemButton>
     </ListItem>
@@ -34,7 +35,6 @@ export default function MenuList({ mode,setMode }) {
         <Switch onChange={e=>setMode(mode === 'light' ? 'dark' : 'light' )}/>
     </ListItem>
     <Divider />
-    <Outlet />
    </List>
   );
 };

@@ -1,4 +1,4 @@
-import { Card, Grid } from "@mui/material";
+import { Card, Box, Grid } from "@mui/material";
 import { Link, useParams } from "react-router-dom";
 import { getBook } from "../sermons";
 
@@ -7,7 +7,7 @@ export default function Book() {
     let book = getBook(parseInt(params.bookId, 10));
 
     return (
-    <>
+    <Box flex={5} p={2}>
     <Grid container spacing={2}>
     {book.sermons.map((sermon) => (
 
@@ -26,6 +26,6 @@ export default function Book() {
     ))}
 
     </Grid>
-     </>
+     </Box>
     );
   };
