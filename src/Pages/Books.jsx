@@ -14,7 +14,7 @@ export default function Books({ mode, setMode }) {
   return (
     <>
     <Box flex={1} p={2}>
-    <Box sx={{width: 240}} >
+    <Box sx={{width: 190}} >
     <Avatar alt='logo' src={imageUrl} sx={{ width: 190, height: 55}} variant='square' />
     <MenuList setMode={setMode} mode={mode} />
 

@@ -1,31 +1,54 @@
-import { Card, Box, Grid } from "@mui/material";
+import { Avatar, CardMedia, Card, Box, CardHeader, CardContent} from "@mui/material";
 import { Link, useParams } from "react-router-dom";
 import { getBook } from "../sermons";
+import ChurchImgUrl from "../images/ChurchImgs";
 
 export default function Book() {
     let params = useParams();
     let book = getBook(parseInt(params.bookId, 10));
 
-    return (
-    <Box flex={5} p={2}>
-    <Grid container spacing={2}>
-    {book.sermons.map((sermon) => (
+    let randomNum = Math.floor(Math.random() * ChurchImgUrl.length);
 
-    <Grid item xs={4} md={3} key={sermon.title}>
-    <Card >
-      <h4>{sermon.title}</h4>
+    return (
+    <Box flex={5} p={1}>
+    {book.sermons.map((sermon) => (
+      <Card key={sermon.title}>
+      <CardHeader
+        avatar={
+            <Avatar sx={{ bgcolor: 'teal' }} aria-label='Grace Fellowship of Mountain Home Idaho'>
+            GF
+            </Avatar>
+        }
+        title={sermon.title}
+        subheader={sermon.year}
+        />
+
+
+        <CardMedia
+          sx={{borderRadius: 1 }}
+          height={211}
+          component='img'
+          image={ChurchImgUrl[randomNum]}
+          title={sermon.title}
+          alt={sermon.name}
+        />
+
+      <CardContent> 
+
       <h6>Bible Verse: {sermon.comment}</h6>
-      <p className="w3-center">Year: {sermon.year}</p>
-      <h6>Sermon MP3:</h6> 
-      <ul>
-        <li><Link to={`/${sermon.path}${sermon.name}`}>{sermon.name}</Link></li>
-      </ul>
+      <h6>Sermon MP3: </h6> 
+        <audio controls>
+        <source src={`/${sermon.path}${sermon.name}`} type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+
+      </CardContent>
+
     </Card>
-    </Grid>
+
 
     ))}
 
-    </Grid>
      </Box>
     );
   };
