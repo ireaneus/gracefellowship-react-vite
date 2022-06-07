@@ -16,7 +16,7 @@ export default function Book() {
       "/images/pexels-pixabay-267549.jpg",
       "/images/pexels-pixabay-267559.jpg",
       "/images/pexels-pixabay-372326.jpg",
-      "/images/pexels-pixabay-tabitha-mort-710905.jpg"
+      "/images/pexels-tabitha-mort-710905.jpg"
   );
 
     let randomNum = Math.floor(Math.random() * ChurchImgUrl.length);
