@@ -1,5 +1,5 @@
 import { Avatar, CardMedia, Card, Box, CardHeader, CardContent} from "@mui/material";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { getBook } from "../sermons";
 import ChurchImgUrl from "../images/ChurchImgs";
 
