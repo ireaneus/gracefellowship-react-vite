@@ -1,6 +1,6 @@
 import { Avatar, Box, Card, CardContent, CardHeader, CardMedia } from '@mui/material';
 import * as React from 'react';
-import imageUrl from '../images/churchus.jpg';
+import imageUrl from '/images/churchus.jpg';
 
 export default function About() {
   

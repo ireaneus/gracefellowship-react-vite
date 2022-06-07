@@ -2,7 +2,6 @@ import { Box, Menu, Paper } from '@mui/material';
 import { Church } from '@mui/icons-material';
 import React, { useState } from 'react'
 import MenuList from './MenuList';
-import { Books } from '../Pages';
 
 
 export default function ChurchMenu({ mode,setMode }) {

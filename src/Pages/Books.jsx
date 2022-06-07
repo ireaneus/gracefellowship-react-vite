@@ -1,5 +1,5 @@
 import React from 'react'
-import imageUrl from '../images/logo.gif';
+import imageUrl from '/images/logo.gif';
 import MenuList from '../components/MenuList';
 import { Avatar, Box, ListItemText } from "@mui/material";
 import { NavLink, Outlet, useSearchParams } from "react-router-dom";

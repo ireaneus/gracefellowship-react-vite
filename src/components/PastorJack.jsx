@@ -1,6 +1,6 @@
 import { Avatar, Box, Card, CardContent, CardHeader, CardMedia } from '@mui/material';
 import React from 'react';
-import imageUrl from '../images/Pastor_2.jpg';
+import imageUrl from '/images/Pastor_2.jpg';
 
 export default function PastorJack() {
 

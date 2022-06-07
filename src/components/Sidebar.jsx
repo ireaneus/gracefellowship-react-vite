@@ -1,6 +1,6 @@
 import { Avatar, Box } from '@mui/material';
 import React from 'react'
-import imageUrl from '../images/logo.gif';
+import imageUrl from '/images/logo.gif';
 import MenuList from './MenuList';
 
 export default function Sidebar({ mode,setMode }) {

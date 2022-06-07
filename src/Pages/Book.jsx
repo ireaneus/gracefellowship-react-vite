@@ -1,11 +1,23 @@
 import { Avatar, CardMedia, Card, Box, CardHeader, CardContent} from "@mui/material";
 import { useParams } from "react-router-dom";
 import { getBook } from "../sermons";
-import ChurchImgUrl from "../images/ChurchImgs";
+
 
 export default function Book() {
     let params = useParams();
     let book = getBook(parseInt(params.bookId, 10));
+
+    const ChurchImgUrl = new Array(
+      "/images/pexels-brett-sayles-3633711.jpg",
+      "/images/pexels-eduardo-braga-1296720.jpg",
+      "/images/pexels-johnmark-smith-250609.jpg",
+      "/images/pexels-matt-hardy-2602543.jpg",
+      "/images/pexels-patricia-mccarty-1769691.jpg",
+      "/images/pexels-pixabay-267549.jpg",
+      "/images/pexels-pixabay-267559.jpg",
+      "/images/pexels-pixabay-372326.jpg",
+      "/images/pexels-pixabay-tabitha-mort-710905.jpg"
+  );
 
     let randomNum = Math.floor(Math.random() * ChurchImgUrl.length);
 
