@@ -3,7 +3,6 @@ import { Church } from '@mui/icons-material';
 import React, { useState } from 'react'
 import MenuList from './MenuList';
 
-
 export default function ChurchMenu({ mode,setMode }) {
 
   const [anchorEl, setAnchorEl] = useState(null);
