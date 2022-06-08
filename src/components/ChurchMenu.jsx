@@ -15,7 +15,7 @@ export default function ChurchMenu({ mode,setMode }) {
   };
 
     return (
-        <Box sx={{ display:{xs: 'block', sm: 'block', md: 'none'} }}>
+        <Box>
           <Church 
             id='basic-button'
             aria-controls={open ? 'basic-menu' : undefined}

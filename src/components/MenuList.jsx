@@ -23,7 +23,7 @@ export default function MenuList({ mode,setMode }) {
         <ListItemIcon>
         <MenuBookTwoToneIcon />
         </ListItemIcon>
-        <Link to={'/books'}> {" "}
+        <Link to={'/books'}> 
         <ListItemText primary='Sermon Collections' />
         </Link>
       </ListItemButton>
