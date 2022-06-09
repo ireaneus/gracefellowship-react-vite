@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { Divider, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch } from '@mui/material';
 import { Home, ModeNight } from '@mui/icons-material';
-import MenuBookTwoToneIcon from '@mui/icons-material/MenuBookTwoTone';
+import { MenuBookTwoToneIcon } from '@mui/icons-material/';
 
 export default function MenuList({ mode,setMode }) {
 
@@ -10,20 +10,20 @@ export default function MenuList({ mode,setMode }) {
         <List>
         <ListItem disablePadding>
       <ListItemButton>
+      <Link to={'/'}> 
         <ListItemIcon>
         <Home />
         </ListItemIcon>
-        <Link to={'/'}> 
         <ListItemText primary='Home Page' />
         </Link>
       </ListItemButton>
     </ListItem>
     <ListItem disablePadding>
       <ListItemButton>
+      <Link to={'/books'}> 
         <ListItemIcon>
         <MenuBookTwoToneIcon />
         </ListItemIcon>
-        <Link to={'/books'}> 
         <ListItemText primary='Sermon Collections' />
         </Link>
       </ListItemButton>
@@ -36,6 +36,5 @@ export default function MenuList({ mode,setMode }) {
     </ListItem>
     <Divider />
    </List>
-  );
-};
-
+  )
+}

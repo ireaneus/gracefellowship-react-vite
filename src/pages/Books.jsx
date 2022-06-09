@@ -1,7 +1,6 @@
 import React from 'react'
-import { Box, ListItemText } from "@mui/material";
 import { NavLink, Outlet, useSearchParams } from "react-router-dom";
-import { List, ListItem, ListItemButton, ListItemIcon, } from '@mui/material';
+import { List, ListItem, ListItemButton, ListItemIcon, Box, ListItemText } from '@mui/material';
 import { getBooks } from "../sermons.js";
 import MenuBookTwoToneIcon from '@mui/icons-material/MenuBookTwoTone';
 
