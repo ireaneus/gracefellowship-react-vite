@@ -5,4 +5,3 @@ export { default as GraceResCard } from './GraceResCard';
 export { default as MenuList } from './MenuList';
 export { default as ChurchMenu } from './ChurchMenu';
 export { default as PastorJack } from './PastorJack';
-export { default as Sidebar } from './Sidebar';

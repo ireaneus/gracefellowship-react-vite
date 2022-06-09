@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, Outlet, useSearchParams } from "react-router-dom";
+import { NavLink, useSearchParams } from "react-router-dom";
 import { List, ListItem, ListItemButton, ListItemIcon, Box, ListItemText } from '@mui/material';
 import { getBooks } from "../sermons.js";
 import MenuBookTwoToneIcon from '@mui/icons-material/MenuBookTwoTone';
@@ -11,7 +11,7 @@ export default function Books({ mode, setMode }) {
   return (
     <>
 
-    <Box flex={1} p={2} sx={{width: 190}} >
+    <Box flex={1} p={2} sx={{width: 240}} >
 
     <input
         value={searchParams.get("filter") || ""}
@@ -45,7 +45,7 @@ export default function Books({ mode, setMode }) {
                 color: isActive ? "red" : "",
               };
             }}
-            to={`/books/${book.id}`}
+            to={`/${book.id}`}
           >
             <ListItemText primary={book.name} />
           </NavLink> {" "}
@@ -56,7 +56,7 @@ export default function Books({ mode, setMode }) {
 
         </Box>
 
-      <Outlet />
+
       </>
   );
 };

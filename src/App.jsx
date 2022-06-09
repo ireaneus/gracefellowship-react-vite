@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './css/App.css';
-import { HomePage, Layout, NoPage, Book, SermonsPage } from './pages';
+import { HomePage, Layout, NoPage, Book } from './pages';
 
 export default function App() {
   return (
@@ -8,7 +8,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
-          <Route path="books" element={<SermonsPage />}>
+          <Route path=':bookId' element={<Book />}>
           <Route
               index
               element={
@@ -17,10 +17,9 @@ export default function App() {
                 </div>
               }
             />
-            <Route path=':bookId' element={<Book />} />
+            </Route>
           </Route>
           <Route path="*" element={<NoPage />} />
-        </Route>
       </Routes>
     </BrowserRouter>
   );

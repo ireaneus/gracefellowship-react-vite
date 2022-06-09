@@ -1,5 +1,6 @@
 import { Avatar, CardMedia, Card, Box, CardHeader, CardContent} from "@mui/material";
 import { useParams } from "react-router-dom";
+import { Footer } from "../components";
 import { getBook } from "../sermons";
 
 
@@ -56,6 +57,7 @@ export default function Book() {
         </CardContent>
       </Card>
     ))}
+    <Footer />
      </Box>
     );
   };
