@@ -1,8 +1,7 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { Divider, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch } from '@mui/material';
-import { Home, ModeNight } from '@mui/icons-material';
-import { MenuBookTwoToneIcon } from '@mui/icons-material/';
+import { Home, ModeNight, MenuBookTwoToneIcon } from '@mui/icons-material';
 
 export default function MenuList({ mode,setMode }) {
 
