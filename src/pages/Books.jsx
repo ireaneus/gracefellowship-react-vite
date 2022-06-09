@@ -12,7 +12,7 @@ export default function Books({ mode, setMode }) {
     <>
 
     <Box flex={1} p={2} sx={{width: 240}} >
-
+    <h4>Sermon Collections</h4>
     <input
         value={searchParams.get("filter") || ""}
         onChange={(event) => {

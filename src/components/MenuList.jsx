@@ -20,10 +20,12 @@ export default function MenuList({ mode,setMode }) {
       </ListItemButton>
     </ListItem>
     <ListItem disablePadding>
+    <ListItemButton>
       <ListItemIcon>
        <ModeNight />
       </ListItemIcon>
         <Switch onChange={e=>setMode(mode === 'light' ? 'dark' : 'light' )}/>
+      </ListItemButton>
     </ListItem>
     <Divider />
    </List>
