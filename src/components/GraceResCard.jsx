@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Card, Box, CardContent, CardMedia, Avatar, CardHeader } from '@mui/material';
 import imageUrl from '/images/Church300.jpg';
+import { ChurchSharp } from '@mui/icons-material';
 
 export default function GraceResCard() {
 
@@ -30,11 +31,13 @@ export default function GraceResCard() {
         <CardContent>
             <h4>About Grace Fellowship Website Resurrected</h4>
             <p className='scripture w3-center'>Dedicated to the memory of Pastor Jack Hurley</p>
-            <p>After 15 years of being offline this website is being <i>'Resurrected'</i></p>
+            <p>After 15 years of being offline this website is being <i>'Resurrected'</i><br />
 
-            <p>It is time to dust off your Bibles, and get back into the Word of God.&nbsp;&nbsp; I've spent over a year remastering the tapes, there are several new additions books of the Bible, topical, and prophecy teachings spanning from 1984 to 2004
-            </p>
+            It is time to dust off your Bibles, and get back into the Word of God.&nbsp;&nbsp; I've spent over a year remastering the tapes, there are several new additions books of the Bible, topical, and prophecy teachings spanning from 1984 to 2004</p>
+
+            <p className='scripture w3-center'>Open <ChurchSharp /> icon to view the Sermon Collections</p>
         </CardContent>
+
     </Card>
     </Box>
   );

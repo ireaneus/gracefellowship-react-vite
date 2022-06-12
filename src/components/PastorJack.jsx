@@ -16,7 +16,7 @@ export default function PastorJack() {
   title='Pastor Jack Hurly'
   subheader='December 1993 - February 2004'
   />
-      <Box sx={{display: 'flex', justifyContent: 'center'}}>
+      <Box sx={{display: 'flex', justifyContent: 'left'}}>
       <CardMedia
           sx={{borderRadius: 1, ml: 2, maxWidth: 179}}
           height={311}
@@ -25,7 +25,7 @@ export default function PastorJack() {
           title='Pastor Jack Hurley'
           alt='Pastor of Grace'
         />
-      </Box>
+      
       <CardContent>
       <h4>About Pastor Jack Hurley</h4>
       <p className='scripture w3-center'>Pastor at Grace Fellowship from 1993-2004<br />Pastor Jack went to be with the Lord suddenly in February 2004.</p>
@@ -37,6 +37,7 @@ export default function PastorJack() {
       <p>Pastor Hurley believes in the return to biblical worship of our sovereign God and teaching through the books of the Bible verse by verse.&nbsp;&nbsp;One of his primary concerns is to see the people and families of our church grow in Christian maturity and unity through a living and active relationship with the Lord and with each other.</p>
 
      </CardContent>
+     </Box>
   </Card>
   </Box>
   );
