@@ -38,7 +38,7 @@ export default function GraceResCard() {
             <p className='scripture w3-center'>Open <ChurchSharp /> icon to view the Sermon Collections</p>
         </CardContent>
 
-    </Card>
-    </Box>
+  </Card>
+  </Box>
   );
 };
