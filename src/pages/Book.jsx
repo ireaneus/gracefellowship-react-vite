@@ -53,6 +53,7 @@ export default function Book() {
             <source src={`/${sermon.path}${sermon.name}`} type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
+          <h6>Sermon Notes (download): <a href={sermon.path + sermon.pdf} download>{sermon.pdf}</a></h6>
 
         </CardContent>
       </Card>

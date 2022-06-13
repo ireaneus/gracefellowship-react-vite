@@ -354,7 +354,8 @@ let books = [
 				"year": "2001",
 				"comment": "1 Timothy 1:1-11",
 				"name": "1tim-part1.mp3",
-				"path": "sermons/1tim/"
+				"path": "sermons/1tim/",
+				"pdf": "1TIM-PART1.pdf"
 			},
 			{
 				"title": "Praying for all men",
@@ -363,7 +364,8 @@ let books = [
 				"year": "2001",
 				"comment": "1 Timothy 1:3-20",
 				"name": "1tim-part2.mp3",
-				"path": "sermons/1tim/"
+				"path": "sermons/1tim/",
+				"pdf": "1TIM-PART2.pdf"
 			},
 			{
 				"title": "The law is not for the righteous",
@@ -372,7 +374,8 @@ let books = [
 				"year": "2001",
 				"comment": "1 Timothy 2:1-7",
 				"name": "1tim-part3.mp3",
-				"path": "sermons/1tim/"
+				"path": "sermons/1tim/",
+				"pdf": "1TIM-PART3.pdf"
 			},
 			{
 				"title": "Church Order",
@@ -381,7 +384,8 @@ let books = [
 				"year": "2001",
 				"comment": "1 Timothy 2:8-15",
 				"name": "1tim-part4.mp3",
-				"path": "sermons/1tim/"
+				"path": "sermons/1tim/",
+				"pdf": "1TIM-PART4.pdf"
 			},
 			{
 				"title": "Elders",
@@ -390,7 +394,8 @@ let books = [
 				"year": "2001",
 				"comment": "1 Timothy 3:1-7",
 				"name": "1tim-part5.mp3",
-				"path": "sermons/1tim/"
+				"path": "sermons/1tim/",
+				"pdf": "1TIM-PART5.pdf"
 			},
 			{
 				"title": "The office of Deacon",
@@ -399,7 +404,8 @@ let books = [
 				"year": "2001",
 				"comment": "1 Timothy 3:8-16",
 				"name": "1tim-part6.mp3",
-				"path": "sermons/1tim/"
+				"path": "sermons/1tim/",
+				"pdf": "1TIM-PART6.pdf"
 			},
 			{
 				"title": "Sound Biblical teaching and Doctrine",
@@ -408,7 +414,18 @@ let books = [
 				"year": "2001",
 				"comment": "1 Timothy 4:1-3",
 				"name": "1tim-part7.mp3",
-				"path": "sermons/1tim/"
+				"path": "sermons/1tim/",
+				"pdf": "1TIM-PART7.pdf"
+			},
+			{
+				"title": "Fight the good fight",
+				"artist": "Pastor Jack Hurley",
+				"album": "1TIM",
+				"year": "2001",
+				"comment": "1 Timothy 4:4-11",
+				"name": "",
+				"path": "sermons/1tim/",
+				"pdf": "1TIM-PART8.pdf"
 			},
 			{
 				"title": "Nourished on the sound doctrine",
@@ -417,7 +434,8 @@ let books = [
 				"year": "2001",
 				"comment": "1 Timothy 4:12-5:4",
 				"name": "1tim-part9.mp3",
-				"path": "sermons/1tim/"
+				"path": "sermons/1tim/",
+				"pdf": "1TIM-PART9.pdf"
 			},
 			{
 				"title": "Widows in the church",
@@ -426,7 +444,8 @@ let books = [
 				"year": "2001",
 				"comment": "1 Timothy 5:1-16",
 				"name": "1tim-part10.mp3",
-				"path": "sermons/1tim/"
+				"path": "sermons/1tim/",
+				"pdf": "1TIM-PART10.pdf"
 			},
 			{
 				"title": "Treatment of leaders in the church",
@@ -435,7 +454,8 @@ let books = [
 				"year": "2001",
 				"comment": "1 Timothy 5:17-21",
 				"name": "1tim-part11.mp3",
-				"path": "sermons/1tim/"
+				"path": "sermons/1tim/",
+				"pdf": "1TIM-PART11.pdf"
 			},
 			{
 				"title": "Leadership Responsibility",
@@ -444,7 +464,8 @@ let books = [
 				"year": "2001",
 				"comment": "1 Timothy 5:22-6:5",
 				"name": "1tim-part12.mp3",
-				"path": "sermons/1tim/"
+				"path": "sermons/1tim/",
+				"pdf": "1TIM-PART12.pdf"
 			},
 			{
 				"title": "Responsibility One to Another",
@@ -453,7 +474,8 @@ let books = [
 				"year": "2001",
 				"comment": "1 Timothy 6:1-10",
 				"name": "1tim-part13.mp3",
-				"path": "sermons/1tim/"
+				"path": "sermons/1tim/",
+				"pdf": "1TIM-PART13.pdf"
 			},
 			{
 				"title": "Flee from these things",
@@ -462,7 +484,8 @@ let books = [
 				"year": "2001",
 				"comment": "1 Timothy 6:11-21",
 				"name": "1tim-part14.mp3",
-				"path": "sermons/1tim/"
+				"path": "sermons/1tim/",
+				"pdf": "1TIM-PART14.pdf"
 			}
 		]
 	},
@@ -477,7 +500,8 @@ let books = [
 				"year": "2001",
 				"comment": "2 Timothy 1:1-2",
 				"name": "2tim-part1.mp3",
-				"path": "sermons/2tim/"
+				"path": "sermons/2tim/",
+				"pdf": "2TIM-PART1.pdf"
 			},
 			{
 				"title": "Fan the flame!",
@@ -486,7 +510,8 @@ let books = [
 				"year": "2001",
 				"comment": "2 Timothy 1:3-11",
 				"name": "2tim-part2.mp3",
-				"path": "sermons/2tim/"
+				"path": "sermons/2tim/",
+				"pdf": "2TIM-PART2.pdf"
 			},
 			{
 				"title": "Suffering for the gospel",
@@ -495,7 +520,8 @@ let books = [
 				"year": "2001",
 				"comment": "2 Timothy 2:12-18",
 				"name": "2tim-part3.mp3",
-				"path": "sermons/2tim/"
+				"path": "sermons/2tim/",
+				"pdf": "2TIM-PART3.pdf"
 			},
 			{
 				"title": "Guidelines for effective Christian service",
@@ -504,7 +530,8 @@ let books = [
 				"year": "2002",
 				"comment": "2 Timothy 2:1-12",
 				"name": "2tim-part4.mp3",
-				"path": "sermons/2tim/"
+				"path": "sermons/2tim/",
+				"pdf": "2TIM-PART4.pdf"
 			},
 			{
 				"title": "My Gospel",
@@ -513,7 +540,8 @@ let books = [
 				"year": "2002",
 				"comment": "2 Timothy 2:8-13",
 				"name": "2tim-part5.mp3",
-				"path": "sermons/2tim/"
+				"path": "sermons/2tim/",
+				"pdf": "2TIM-PART5.pdf"
 			},
 			{
 				"title": "Let us not forget these things",
@@ -522,7 +550,8 @@ let books = [
 				"year": "2002",
 				"comment": "2 Timothy 2:14-19",
 				"name": "2tim-part6.mp3",
-				"path": "sermons/2tim/"
+				"path": "sermons/2tim/",
+				"pdf": "2TIM-PART6.pdf"
 			},
 			{
 				"title": "Firm foundation of God stands",
@@ -531,7 +560,8 @@ let books = [
 				"year": "2002",
 				"comment": "2 Timothy 2:19-26",
 				"name": "2tim-part7.mp3",
-				"path": "sermons/2tim/"
+				"path": "sermons/2tim/",
+				"pdf": "2TIM-PART7.pdf"
 			},
 			{
 				"title": "Overview thus far",
@@ -540,7 +570,8 @@ let books = [
 				"year": "2002",
 				"comment": "2 Timothy 3:1",
 				"name": "2tim-part8.mp3",
-				"path": "sermons/2tim/"
+				"path": "sermons/2tim/",
+				"pdf": "2TIM-PART8.pdf"
 			},
 			{
 				"title": "Last Days",
@@ -549,7 +580,8 @@ let books = [
 				"year": "2002",
 				"comment": "2 Timothy 3:1-7",
 				"name": "2tim-part9.mp3",
-				"path": "sermons/2tim/"
+				"path": "sermons/2tim/",
+				"pdf": "2TIM-PART9.pdf"
 			},
 			{
 				"title": "God’s order in the Christian family",
@@ -558,7 +590,8 @@ let books = [
 				"year": "2002",
 				"comment": "2 Timothy 3:8-16",
 				"name": "2tim-part10.mp3",
-				"path": "sermons/2tim/"
+				"path": "sermons/2tim/",
+				"pdf": "2TIM-PART10.pdf"
 			},
 			{
 				"title": "I solemnly charge you",
@@ -567,7 +600,8 @@ let books = [
 				"year": "2002",
 				"comment": "2 Timothy 4:1-6",
 				"name": "2tim-part11.mp3",
-				"path": "sermons/2tim/"
+				"path": "sermons/2tim/",
+				"pdf": "2TIM-PART11.pdf"
 			},
 						{
 				"title": "Sound doctrine",
@@ -576,7 +610,8 @@ let books = [
 				"year": "2002",
 				"comment": "2 Timothy 3:16-4:6",
 				"name": "2tim-part12.mp3",
-				"path": "sermons/2tim/"
+				"path": "sermons/2tim/",
+				"pdf": "2TIM-PART12.pdf"
 			},
 			{
 				"title": "Overall view",
@@ -585,7 +620,8 @@ let books = [
 				"year": "2002",
 				"comment": "2 Timothy 4:7-8",
 				"name": "2tim-part13.mp3",
-				"path": "sermons/2tim/"
+				"path": "sermons/2tim/",
+				"pdf": "2TIM-PART13.pdf"
 			},
 			{
 				"title": "The faithful and the false",
@@ -594,7 +630,8 @@ let books = [
 				"year": "2002",
 				"comment": "2 Timothy 4:9-22",
 				"name": "2tim-part14.mp3",
-				"path": "sermons/2tim/"
+				"path": "sermons/2tim/",
+				"pdf": "2TIM-PART14.pdf"
 			}
 		]
 	},
@@ -609,7 +646,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 1:1-5",
 				"name": "acts-part1.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART1.pdf"
 			},
 			{
 				"title": "THE DAY THE CHURCH BEGAN",
@@ -618,7 +656,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 1:1-11",
 				"name": "acts-part2.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART2.pdf"
 			},
 			{
 				"title": "Acts Part 3",
@@ -627,7 +666,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 1:12-26",
 				"name": "acts-part03.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART3.pdf"
 			},
 			{
 				"title": "The Day of Pentecost and the Church",
@@ -636,7 +676,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 2:1-5",
 				"name": "acts-part04.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART4.pdf"
 			},
 			{
 				"title": "THE REACTION OF THE MULTITUDE ON THE DAY OF PENTECOST",
@@ -645,7 +686,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 2:5-21",
 				"name": "acts-part05.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART5.pdf"
 			},
 			{
 				"title": "Acts Part 6",
@@ -654,7 +696,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 2:22-36",
 				"name": "acts-part06.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART6.pdf"
 			},
 			{
 				"title": "Acts Part 7",
@@ -663,7 +706,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 2:37-38",
 				"name": "acts-part07.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART7.pdf"
 			},
 			{
 				"title": "Acts Part 8",
@@ -672,7 +716,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 2:37-38 (Part-2)",
 				"name": "acts-part08.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART8.pdf"
 			},
 			{
 				"title": "Acts Part 9",
@@ -681,7 +726,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 2:38-47",
 				"name": "acts-part09.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART9.pdf"
 			},
 			{
 				"title": "Acts Part 10",
@@ -690,7 +736,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 3:1-16",
 				"name": "acts-part10.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART10.pdf"
 			},
 			{
 				"title": "Acts Part 11",
@@ -699,7 +746,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 3:17-26",
 				"name": "acts-part11.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART11.pdf"
 			},
 			{
 				"title": "Acts Part 12",
@@ -708,7 +756,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 4:1-23",
 				"name": "acts-part12.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART12.pdf"
 			},
 			{
 				"title": "Acts Part 13",
@@ -717,7 +766,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 4:24-37",
 				"name": "acts-part13.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART13.pdf"
 			},
 			{
 				"title": "Acts Part 15",
@@ -726,7 +776,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 5:11-21",
 				"name": "acts-part15.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART15.pdf"
 			},
 			{
 				"title": "Acts Part 16",
@@ -735,16 +786,28 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 5:22-33",
 				"name": "acts-part16.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART16.pdf"
+			},
+			{
+				"title": "Acts Part 17",
+				"artist": "Pastor Jack Hurley",
+				"album": "Acts",
+				"year": "2003",
+				"comment": "Acts 5:33-42 (MP3 not available)",
+				"name": "",
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART17.pdf"
 			},
 			{
 				"title": "Acts Part 18",
 				"artist": "Pastor Jack Hurley",
 				"album": "Acts",
 				"year": "2003",
-				"comment": "Acts Acts 6:1-8",
+				"comment": "Acts 6:1-8",
 				"name": "acts-part18.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART18.pdf"
 			},
 			{
 				"title": "Acts Part 19",
@@ -753,7 +816,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 6-9-7-60",
 				"name": "acts-part19.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART19.pdf"
 			},
 			{
 				"title": "Acts Part 20",
@@ -762,7 +826,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 8:1",
 				"name": "acts-part20.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART20.pdf"
 			},
 			{
 				"title": "Acts Part 21",
@@ -771,7 +836,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 8:2-8",
 				"name": "acts-part21.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART21.pdf"
 			},
 			{
 				"title": "Acts Part 22",
@@ -780,7 +846,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 8:9-13",
 				"name": "acts-part22.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART22.pdf"
 			},
 			{
 				"title": "Acts Part 23",
@@ -789,7 +856,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 8:14-24",
 				"name": "acts-part23.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART23.pdf"
 			},
 			{
 				"title": "Acts Part 24",
@@ -798,7 +866,8 @@ let books = [
 				"year": "2003",
 				"comment": "Acts 8:25-40",
 				"name": "acts-part24.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART24.pdf"
 			},
 			{
 				"title": "Acts Part 25",
@@ -807,7 +876,8 @@ let books = [
 				"year": "2004",
 				"comment": "Acts 9:1-20",
 				"name": "acts-part25.mp3",
-				"path": "sermons/acts/"
+				"path": "sermons/acts/",
+				"pdf": "ACTS-PART25.pdf"
 			},
 			{
 				"title": "Acts Part 26",
@@ -1114,7 +1184,8 @@ let books = [
 				"album": "Christmas",
 				"year": "2002",
 				"name": "history-and-the-birth-of-christ.mp3",
-				"path": "sermons/christmas/"
+				"path": "sermons/christmas/",
+				"pdf": "History-and-birth-of-Christ.pdf"
 			},
 			{
 				"title": "THE CHRISTMAS STORY",
@@ -1122,7 +1193,26 @@ let books = [
 				"album": "Christmas",
 				"year": "2001",
 				"name": "christmas-2001.mp3",
-				"path": "sermons/christmas/"
+				"path": "sermons/christmas/",
+				"pdf": "CHRISTMAS-STORY.pdf"
+			},
+			{
+				"title": "CHRISTMAS MEANING",
+				"artist": "Pastor Jack Hurley",
+				"album": "Christmas",
+				"year": "",
+				"name": "",
+				"path": "sermons/christmas/",
+				"pdf": "CHRISTMAS-MEANING.pdf"
+			},
+			{
+				"title": "MAGI: THE THREE WISE MEN OF THE CHRISTMAS STORY",
+				"artist": "Pastor Jack Hurley",
+				"album": "Christmas",
+				"year": "",
+				"name": "",
+				"path": "sermons/christmas/",
+				"pdf": "MAGI-HISTORY.pdf"
 			},
 			{
 				"title": "THE MAGI",
@@ -1130,7 +1220,8 @@ let books = [
 				"album": "Christmas",
 				"year": "2000",
 				"name": "the-three-kings.mp3",
-				"path": "sermons/christmas/"
+				"path": "sermons/christmas/",
+				"pdf": "Three-Kings.pdf"
 			}
 		]
 	},
@@ -1997,7 +2088,8 @@ let books = [
 				"year": "2001",
 				"comment": "Jude 1-4",
 				"name": "jude-part1.mp3",
-				"path": "sermons/jude/"
+				"path": "sermons/jude/",
+				"pdf": "JUDE-PART1.pdf"
 			},
 			{
 				"title": "Who we are",
@@ -2006,7 +2098,8 @@ let books = [
 				"year": "2001",
 				"comment": "Jude 3-4",
 				"name": "jude-part2.mp3",
-				"path": "sermons/jude/"
+				"path": "sermons/jude/",
+				"pdf": "JUDE-PART2.pdf"
 			},
 			{
 				"title": "False Christians – Their fate",
@@ -2015,7 +2108,8 @@ let books = [
 				"year": "2001",
 				"comment": "Jude 5-6",
 				"name": "jude-part3.mp3",
-				"path": "sermons/jude/"
+				"path": "sermons/jude/",
+				"pdf": "JUDE-PART3.pdf"
 			},
 			{
 				"title": "False Christians - Their Fate (Part 2)",
@@ -2024,7 +2118,8 @@ let books = [
 				"year": "2001",
 				"comment": "Jude 5-7",
 				"name": "jude-part4.mp3",
-				"path": "sermons/jude/"
+				"path": "sermons/jude/",
+				"pdf": "JUDE-PART4.pdf"
 			},
 			{
 				"title": "Angels abandon their proper abode",
@@ -2033,7 +2128,8 @@ let books = [
 				"year": "2001",
 				"comment": "Jude 7-13",
 				"name": "jude-part5.mp3",
-				"path": "sermons/jude/"
+				"path": "sermons/jude/",
+				"pdf": "JUDE-PART5.pdf"
 			},
 			{
 				"title": "The way of Cain",
@@ -2042,7 +2138,8 @@ let books = [
 				"year": "2001",
 				"comment": "Jude 11",
 				"name": "jude-part6.mp3",
-				"path": "sermons/jude/"
+				"path": "sermons/jude/",
+				"pdf": "JUDE-PART6.pdf"
 			},
 			{
 				"title": "The error of Balaam",
@@ -2051,7 +2148,8 @@ let books = [
 				"year": "2001",
 				"comment": "Jude 11b",
 				"name": "jude-part7.mp3",
-				"path": "sermons/jude/"
+				"path": "sermons/jude/",
+				"pdf": "JUDE-PART7.pdf"
 			},
 			{
 				"title": "Money and the error of Balaam",
@@ -2060,7 +2158,8 @@ let books = [
 				"year": "2001",
 				"comment": "Jude 11c",
 				"name": "jude-part8.mp3",
-				"path": "sermons/jude/"
+				"path": "sermons/jude/",
+				"pdf": "JUDE-PART8.pdf"
 			},
 			{
 				"title": "Rebellion of Korah",
@@ -2069,7 +2168,8 @@ let books = [
 				"year": "2001",
 				"comment": "Jude 11d",
 				"name": "jude-part9.mp3",
-				"path": "sermons/jude/"
+				"path": "sermons/jude/",
+				"pdf": "JUDE-PART9.pdf"
 			},
 			{
 				"title": "Book of Jude – Recap",
@@ -2078,7 +2178,8 @@ let books = [
 				"year": "2001",
 				"comment": "Jude Recap",
 				"name": "jude-part10.mp3",
-				"path": "sermons/jude/"
+				"path": "sermons/jude/",
+				"pdf": "JUDE-PART10.pdf"
 			},
 			{
 				"title": "The Ungodly among us",
@@ -2087,7 +2188,8 @@ let books = [
 				"year": "2001",
 				"comment": "Jude 12-19",
 				"name": "jude-part11.mp3",
-				"path": "sermons/jude/"
+				"path": "sermons/jude/",
+				"pdf": "JUDE-PART11.pdf"
 			},
 			{
 				"title": "But You Beloved...",
@@ -2096,7 +2198,8 @@ let books = [
 				"year": "2001",
 				"comment": "Jude 19-25",
 				"name": "jude-part12.mp3",
-				"path": "sermons/jude/"
+				"path": "sermons/jude/",
+				"pdf": "JUDE-PART12.pdf"
 			}
 		]
 	},
@@ -2173,7 +2276,8 @@ let books = [
 				"year": "2002",
 				"name": "palm-sunday-2002.mp3",
 				"path": "sermons/resurrection/",
-				"comment": "Matthew 21:1-11"
+				"comment": "Matthew 21:1-11",
+				"pdf": "PALM-SUNDAY.pdf"
 			},
 			{
 				"title": "I am the Resurrection",
@@ -2198,7 +2302,9 @@ let books = [
 				"year": "2002",
 				"name": "ressurection-sunday-2002.mp3",
 				"path": "sermons/resurrection/",
-				"comment": "1 Corinthians 15:1-5"
+				"comment": "1 Corinthians 15:1-5",
+				"pdf": "RESURRECTION-2002.pdf"
+				
 			},
 			{
 				"title": "Palm Sunday",
@@ -2229,7 +2335,8 @@ let books = [
 				"album": "Resurrection",
 				"year": "2001",
 				"name": "the-resurrection-gods-love.mp3",
-				"path": "sermons/resurrection/"
+				"path": "sermons/resurrection/",
+				"pdf": "RESURRECTION-2001.pdf"
 			},
 			{
 				"title": "The passover lamb",
@@ -2472,7 +2579,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 1:1-17",
 				"name": "romans-part1.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART1.pdf"
 			},
 			{
 				"title": "Romans Part 2",
@@ -2481,7 +2589,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 1:18-23",
 				"name": "romans-part2.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART2.pdf"
 			},
 			{
 				"title": "Romans Part 3",
@@ -2490,7 +2599,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 1:15-17",
 				"name": "romans-part3.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART3.pdf"
 			},
 			{
 				"title": "Romans Part 4",
@@ -2499,7 +2609,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 1:24-32",
 				"name": "romans-part4.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART4.pdf"
 			},
 			{
 				"title": "JUDGMENT",
@@ -2508,7 +2619,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 2:1-8",
 				"name": "romans-part5.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART5.pdf"
 			},
 			{
 				"title": "Romans Part 6",
@@ -2516,7 +2628,8 @@ let books = [
 				"album": "Romans",
 				"comment": "Romans Review",
 				"name": "romans-part6.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART6.pdf"
 			},
 			{
 				"title": "Romans Part 7",
@@ -2524,7 +2637,8 @@ let books = [
 				"album": "Romans",
 				"comment": "Romans 2:5-16",
 				"name": "romans-part7.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART7.pdf"
 			},
 			{
 				"title": "Romans Part 8",
@@ -2533,7 +2647,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 2:17-29",
 				"name": "romans-part8.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART8.pdf"
 			},
 			{
 				"title": "Romans Part 9",
@@ -2542,7 +2657,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 3:1-17",
 				"name": "romans-part9.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART9.pdf"
 			},
 			{
 				"title": "Romans Part 10",
@@ -2551,7 +2667,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 3:9-18",
 				"name": "romans-part10.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART10.pdf"
 			},
 			{
 				"title": "Romans Part 11",
@@ -2560,7 +2677,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 3:19-26",
 				"name": "romans-part11.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART11.pdf"
 			},
 			{
 				"title": "Romans Part 12",
@@ -2569,7 +2687,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 3:21-26",
 				"name": "romans-part12.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART12.pdf"
 			},
 			{
 				"title": "Romans Part 13",
@@ -2578,7 +2697,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 3:27- 4:8",
 				"name": "romans-part13.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART13.pdf"
 			},
 			{
 				"title": "Romans Part 14",
@@ -2587,7 +2707,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 4:1-12",
 				"name": "romans-part14.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART14.pdf"
 			},
 			{
 				"title": "Romans Part 15",
@@ -2596,7 +2717,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 4:13-25",
 				"name": "romans-part15.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART15.pdf"
 			},
 			{
 				"title": "Romans Part 16",
@@ -2605,7 +2727,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 5:1-13",
 				"name": "romans-part16.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART16.pdf"
 			},
 			{
 				"title": "Romans Part 17",
@@ -2614,7 +2737,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 5:12-21",
 				"name": "romans-part17.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART17.pdf"
 			},
 			{
 				"title": "Romans Part 18",
@@ -2623,7 +2747,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 6:1-14",
 				"name": "romans-part18.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART18.pdf"
 			},
 			{
 				"title": "Romans Part 19",
@@ -2632,7 +2757,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 6:15-23",
 				"name": "romans-part19.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART19.pdf"
 			},
 			{
 				"title": "Romans Part 20",
@@ -2641,7 +2767,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 7:1-6",
 				"name": "romans-part20.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART20.pdf"
 			},
 			{
 				"title": "Romans Part 21",
@@ -2650,7 +2777,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 7:7-13",
 				"name": "romans-part21.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART21.pdf"
 			},
 			{
 				"title": "Romans Part 22",
@@ -2659,7 +2787,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 7:14-25",
 				"name": "romans-part22.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART22.pdf"
 			},
 			{
 				"title": "Romans Part 23",
@@ -2668,7 +2797,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 8:1-8",
 				"name": "romans-part23.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART23.pdf"
 			},
 			{
 				"title": "Romans Part 24",
@@ -2677,7 +2807,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 8:9-17",
 				"name": "romans-part24.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART24.pdf"
 			},
 			{
 				"title": "Romans Part 25",
@@ -2686,7 +2817,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 8:18-25",
 				"name": "romans-part25.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART25.pdf"
 			},
 			{
 				"title": "Romans Part 26",
@@ -2695,7 +2827,8 @@ let books = [
 				"year": "2002",
 				"comment": "Romans 8:26-28",
 				"name": "romans-part26.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART26.pdf"
 			},
 			{
 				"title": "Romans Part 27",
@@ -2704,7 +2837,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 8-28-39",
 				"name": "romans-part27.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART27.pdf"
 			},
 			{
 				"title": "Romans Part 28",
@@ -2713,7 +2847,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 9:1-13",
 				"name": "romans-part28.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART28.pdf"
 			},
 			{
 				"title": "REDEMPTION ACCOMPLISHED",
@@ -2721,7 +2856,8 @@ let books = [
 				"album": "Romans",
 				"comment": "Romans 9:14-16",
 				"name": "romans-part29.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART29.pdf"
 			},
 			{
 				"title": "THE MERCY OF GOD",
@@ -2730,7 +2866,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 9:17-31",
 				"name": "romans-part30.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART30.pdf"
 			},
 			{
 				"title": "Romans Part 31",
@@ -2739,7 +2876,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 10:1-10",
 				"name": "romans-part31.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART31.pdf"
 			},
 			{
 				"title": "WHOSOEVER",
@@ -2748,7 +2886,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 10:11-21",
 				"name": "romans-part32.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART32.pdf"
 			},
 			{
 				"title": "God has not rejected His people, has He?",
@@ -2757,7 +2896,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 11-1-11",
 				"name": "romans-part33.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART33.pdf"
 			},
 			{
 				"title": "Romans Part 34",
@@ -2766,7 +2906,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 11:11-24",
 				"name": "romans-part34.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART34.pdf"
 			},
 			{
 				"title": "Romans Part 35",
@@ -2775,7 +2916,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 11:25-36",
 				"name": "romans-part35.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART35.pdf"
 			},
 			{
 				"title": "Romans Part 36",
@@ -2784,7 +2926,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 12:1-8",
 				"name": "romans-part36.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART36.pdf"
 			},
 			{
 				"title": "Romans Part 37",
@@ -2793,7 +2936,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 12:9-21",
 				"name": "romans-part37.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART37.pdf"
 			},
 			{
 				"title": "Romans Part 38",
@@ -2802,7 +2946,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 13:1-2",
 				"name": "romans-part38.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART38.pdf"
 			},
 			{
 				"title": "Romans Part 39",
@@ -2811,7 +2956,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 13:3-10",
 				"name": "romans-part39.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART39.pdf"
 			},
 			{
 				"title": "Romans Part 40",
@@ -2820,7 +2966,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 13:10-14",
 				"name": "romans-part40.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART40.pdf"
 			},
 			{
 				"title": "Romans Part 41",
@@ -2829,7 +2976,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 14:1-3",
 				"name": "romans-part41.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART41.pdf"
 			},
 			{
 				"title": "Romans Part 42",
@@ -2838,7 +2986,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 14:3-13",
 				"name": "romans-part42.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART42.pdf"
 			},
 			{
 				"title": "Romans Part 43",
@@ -2847,7 +2996,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 14:14-23",
 				"name": "romans-part43.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART43.pdf"
 			},
 			{
 				"title": "Romans Part 44",
@@ -2856,7 +3006,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 15:1-5",
 				"name": "romans-part44.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART44.pdf"
 			},
 			{
 				"title": "Romans Part 45",
@@ -2865,7 +3016,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 15:5-15",
 				"name": "romans-part45.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART45.pdf"
 			},
 			{
 				"title": "Romans Part 47",
@@ -2874,7 +3026,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 16:1-2",
 				"name": "romans-part47.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART47.pdf"
 			},
 			{
 				"title": "Romans Part 48",
@@ -2883,7 +3036,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 16:3-27",
 				"name": "romans-part48.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART48.pdf"
 			},
 			{
 				"title": "Romans Part 49",
@@ -2892,7 +3046,8 @@ let books = [
 				"year": "2003",
 				"comment": "Romans 16:3-27",
 				"name": "romans-part49.mp3",
-				"path": "sermons/romans/"
+				"path": "sermons/romans/",
+				"pdf": "ROMANS-PART49.pdf"
 			}
 		]
 	},
@@ -2907,7 +3062,18 @@ let books = [
 				"year": "2002",
 				"comment": "Titus 1:1-16",
 				"name": "titus-part1.mp3",
-				"path": "sermons/titus/"
+				"path": "sermons/titus/",
+				"pdf": "TITUS-PART1.pdf"
+			},
+			{
+				"title": "Titus Part 2",
+				"artist": "Pastor Jack Hurley",
+				"album": "Titus",
+				"year": "2002",
+				"comment": "Titus 2:1-15",
+				"name": "",
+				"path": "sermons/titus/",
+				"pdf": "TITUS-PART2.pdf"
 			},
 			{
 				"title": "Titus Part 3",
@@ -2916,7 +3082,8 @@ let books = [
 				"year": "2002",
 				"comment": "Titus 2:9-15",
 				"name": "titus-part3.mp3",
-				"path": "sermons/titus/"
+				"path": "sermons/titus/",
+				"pdf": "TITUS-PART3.pdf"
 			},
 			{
 				"title": "Washing of Regeneration",
@@ -2925,7 +3092,8 @@ let books = [
 				"year": "2002",
 				"comment": "Titus 3:1-7",
 				"name": "titus-part4.mp3",
-				"path": "sermons/titus/"
+				"path": "sermons/titus/",
+				"pdf": "TITUS-PART4.pdf"
 			},
 			{
 				"title": "Titus Part 5",
@@ -2934,7 +3102,8 @@ let books = [
 				"year": "2002",
 				"comment": "Titus 3:8-15",
 				"name": "titus-part5.mp3",
-				"path": "sermons/titus/"
+				"path": "sermons/titus/",
+				"pdf": "TITUS-PART5.pdf"
 			}
 		]
 	},
