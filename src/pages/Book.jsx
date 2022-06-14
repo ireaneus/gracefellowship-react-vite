@@ -1,4 +1,5 @@
-import { Avatar, CardMedia, Card, Box, CardHeader, CardContent} from "@mui/material";
+import { DensityMedium } from "@mui/icons-material";
+import { Avatar, Button, CardMedia, Card, Box, CardHeader, CardContent, List, ListItem, ListItemText } from "@mui/material";
 import { useParams } from "react-router-dom";
 import { Footer } from "../components";
 import { getBook } from "../sermons";
@@ -53,7 +54,20 @@ export default function Book() {
             <source src={`/${sermon.path}${sermon.name}`} type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
-          <h6>Sermon Notes (download): <a href={sermon.path + sermon.pdf} download>{sermon.pdf}</a></h6>
+          <h6>Sermon Notes (download): </h6>
+            <List>
+               <ListItem dense={true}>
+                 <Button href={sermon.path + sermon.pdf} download={sermon.path + sermon.pdf}>
+                  <ListItemText primary={sermon.pdf} />
+                 </Button>
+                </ListItem>
+
+                <ListItem dense={true}>
+                <Button href={sermon.path + sermon.jpg} download={sermon.path + sermon.jpg}>
+                  <ListItemText primary={sermon.jpg} />
+                 </Button>
+                </ListItem>
+            </List>
 
         </CardContent>
       </Card>

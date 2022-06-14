@@ -1940,14 +1940,16 @@ let books = [
 				"artist": "Pastor Jack Hurley",
 				"album": "GospelStars",
 				"name": "gospelinthestars-part1.mp3",
-				"path": "sermons/gospel-stars/"
+				"path": "sermons/gospel-stars/",
+				"pdf": "GODS-VOICE-IN-STARS.pdf"
 			},
 			{
 				"title": "Gospel in the Stars Part 2",
 				"artist": "Pastor Jack Hurley",
 				"album": "GospelStars",
 				"name": "gospelinthestars-part2.mp3",
-				"path": "sermons/gospel-stars/"
+				"path": "sermons/gospel-stars/",
+				"pdf": "GLORY-OF-GODHEAVEN.pdf"
 			},
 			{
 				"title": "Gospel in the Stars Part 3",
@@ -1955,7 +1957,8 @@ let books = [
 				"album": "GospelStars",
 				"year": "1995",
 				"name": "gospelinthestars-part3.mp3",
-				"path": "sermons/gospel-stars/"
+				"path": "sermons/gospel-stars/",
+				"pdf": "GOD-PURPOSE-IN-STARS.pdf"
 			},
 			{
 				"title": "Gospel in the Stars Part 4",
@@ -1963,7 +1966,9 @@ let books = [
 				"album": "GospelStars",
 				"year": "1988",
 				"name": "gospelinthestars-part4.mp3",
-				"path": "sermons/gospel-stars/"
+				"path": "sermons/gospel-stars/",
+				"pdf": "THE-TWELVE-SIGNS.pdf",
+				"jpg": "12SIGNS.jpg"
 			},
 			{
 				"title": "Gospel in the Stars Part 5",
@@ -2004,6 +2009,126 @@ let books = [
 				"year": "1995",
 				"name": "gospelinthestars-part9.mp3",
 				"path": "sermons/gospel-stars/"
+			},
+			{
+				"title": "AQUARIUS (No MP3)",
+				"artist": "Pastor Jack Hurley",
+				"album": "GospelStars",
+				"year": "1995",
+				"name": "",
+				"path": "sermons/gospel-stars/",
+				"pdf": "AQUARIUS.pdf",
+				"jpg": "AQUARIUS.jpg"
+			},
+			{
+				"title": "ARIES (No MP3)",
+				"artist": "Pastor Jack Hurley",
+				"album": "GospelStars",
+				"year": "1995",
+				"name": "",
+				"path": "sermons/gospel-stars/",
+				"pdf": "ARIES.pdf",
+				"jpg": "ARIES.jpg"
+			},
+			{
+				"title": "CANCER (No MP3)",
+				"artist": "Pastor Jack Hurley",
+				"album": "GospelStars",
+				"year": "1995",
+				"name": "",
+				"path": "sermons/gospel-stars/",
+				"pdf": "CANCER.pdf",
+				"jpg": "CANCER.jpg"
+			},
+			{
+				"title": "CAPRICORN (No MP3)",
+				"artist": "Pastor Jack Hurley",
+				"album": "GospelStars",
+				"year": "1995",
+				"name": "",
+				"path": "sermons/gospel-stars/",
+				"pdf": "CAPRICORN.pdf",
+				"jpg": "CAPRICORN.jpg"
+			},
+			{
+				"title": "GEMINI (No MP3)",
+				"artist": "Pastor Jack Hurley",
+				"album": "GospelStars",
+				"year": "1995",
+				"name": "",
+				"path": "sermons/gospel-stars/",
+				"pdf": "GEMINI.pdf",
+				"jpg": "GEMINI.jpg"
+			},
+			{
+				"title": "LEO (No MP3)",
+				"artist": "Pastor Jack Hurley",
+				"album": "GospelStars",
+				"year": "1995",
+				"name": "",
+				"path": "sermons/gospel-stars/",
+				"pdf": "LEO.pdf",
+				"jpg": "LEO.jpg"
+			},
+			{
+				"title": "LIBRA (No MP3)",
+				"artist": "Pastor Jack Hurley",
+				"album": "GospelStars",
+				"year": "1995",
+				"name": "",
+				"path": "sermons/gospel-stars/",
+				"pdf": "LIBRA.pdf",
+				"jpg": "LIBRA.jpg"
+			},
+			{
+				"title": "PISCES (No MP3)",
+				"artist": "Pastor Jack Hurley",
+				"album": "GospelStars",
+				"year": "1995",
+				"name": "",
+				"path": "sermons/gospel-stars/",
+				"pdf": "PISCES.pdf",
+				"jpg": "PISCES.jpg"
+			},
+			{
+				"title": "SAGITTARIUS (No MP3)",
+				"artist": "Pastor Jack Hurley",
+				"album": "GospelStars",
+				"year": "1995",
+				"name": "",
+				"path": "sermons/gospel-stars/",
+				"pdf": "SAGITTARIUS.pdf",
+				"jpg": "SAGITTARIUS.jpg"
+			},
+			{
+				"title": "SCORPIO (No MP3)",
+				"artist": "Pastor Jack Hurley",
+				"album": "GospelStars",
+				"year": "1995",
+				"name": "",
+				"path": "sermons/gospel-stars/",
+				"pdf": "SCORPIO.pdf",
+				"jpg": "SCORPIO.jpg"
+			},
+			{
+				"title": "TAURUS (No MP3)",
+				"artist": "Pastor Jack Hurley",
+				"album": "GospelStars",
+				"year": "1995",
+				"name": "gospelinthestars-part8.mp3",
+				"path": "sermons/gospel-stars/",
+				"pdf": "TAURUS.pdf",
+				"jpg": "TAURUS.jpg"
+			},
+			{
+				"title": "VIRGO (No MP3)",
+				"artist": "Pastor Jack Hurley",
+				"album": "GospelStars",
+				"year": "1995",
+				"name": "gospelinthestars-part8.mp3",
+				"path": "sermons/gospel-stars/",
+				"pdf": "VIRGO.pdf",
+				"jpg": "VIRGO.jpg"
 			}
 		]
 	},
@@ -3070,7 +3195,7 @@ let books = [
 				"artist": "Pastor Jack Hurley",
 				"album": "Titus",
 				"year": "2002",
-				"comment": "Titus 2:1-15",
+				"comment": "Titus 2:1-15 (MP3 not available)",
 				"name": "",
 				"path": "sermons/titus/",
 				"pdf": "TITUS-PART2.pdf"
@@ -3184,10 +3309,11 @@ let books = [
 				"title": "Beginnings",
 				"artist": "Pastor Jack Hurley",
 				"album": "Topical",
-				"year": "2002",
+				"year": "2003",
 				"name": "beginnings.mp3",
 				"path": "sermons/topical/",
-				"comment": "New Year's Sermon"
+				"comment": "New Year's Sermon",
+				"pdf": "BEGINNINGS-2003.pdf"
 			},
 			{
 				"title": "Bible and Prayer",
@@ -3281,7 +3407,8 @@ let books = [
 				"artist": "Pastor Jack Hurley",
 				"album": "Topical",
 				"name": "ephesians-1-13-14.mp3",
-				"path": "sermons/topical/"
+				"path": "sermons/topical/",
+				"pdf": "EPHESIANS-1.pdf"
 			},
 			{
 				"title": "God's way God's blessing",
@@ -3544,7 +3671,8 @@ let books = [
 				"year": "2001",
 				"name": "total-depravity.mp3",
 				"path": "sermons/tulip/",
-				"comment": "1 Cor 15:22 & Romans 5:6"
+				"comment": "1 Cor 15:22 & Romans 5:6",
+				"pdf": "TOTAL-DEPRAVITY.pdf"
 			},
 			{
 				"title": "Unconditional Election",
@@ -3552,7 +3680,8 @@ let books = [
 				"album": "Tulip",
 				"year": "2001",
 				"name": "unconditional-election.mp3",
-				"path": "sermons/tulip/"
+				"path": "sermons/tulip/",
+				"pdf": "UNCONDITIONAL-ELECTION.pdf"
 			},
 			{
 				"title": "Limited Atonement",
@@ -3561,7 +3690,8 @@ let books = [
 				"year": "2001",
 				"name": "limited-atonement.mp3",
 				"path": "sermons/tulip/",
-				"comment": "Particular Redemption"
+				"comment": "Particular Redemption",
+				"pdf": "LIMITED-ATONEMENT.pdf"
 			},
 			{
 				"title": "Irresistible Grace",
@@ -3569,7 +3699,8 @@ let books = [
 				"album": "Tulip",
 				"year": "2001",
 				"name": "irresistible-grace.mp3",
-				"path": "sermons/tulip/"
+				"path": "sermons/tulip/",
+				"pdf": "IRRESISTABLE-GRACE.pdf"
 			},
 			{
 				"title": "Perseverence of the Saints",
@@ -3578,7 +3709,8 @@ let books = [
 				"year": "2001",
 				"name": "perseverence-of-the-saints.mp3",
 				"path": "sermons/tulip/",
-				"comment": "Phil 1:6"
+				"comment": "Phil 1:6",
+				"pdf": "PERSERVERENCE-OF-THE-SAINTS.pdf"
 			},
 			{
 				"title": "The Great Commission",
@@ -3587,7 +3719,8 @@ let books = [
 				"year": "2001",
 				"name": "the-great-commission.mp3",
 				"path": "sermons/tulip/",
-				"comment": "Acts 10"
+				"comment": "Acts 10",
+				"pdf": "THE-GREAT-COMMISSION.pdf"
 			},
 			{
 				"title": "How to Biblically Share the Gospel",
@@ -3596,7 +3729,8 @@ let books = [
 				"year": "2001",
 				"name": "sharing-faith.mp3",
 				"path": "sermons/tulip/",
-				"comment": "Acts 10:30-48"
+				"comment": "Acts 10:30-48",
+				"pdf": "SHARING-FAITH.pdf"
 			}
 		]
 	},
